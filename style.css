@@ -1,0 +1,53 @@
+/* Hero section dengan gradien biru */
+.hero {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Navbar biru */
+.navbar {
+    background-color: #007bff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #cce5ff !important;
+}
+
+/* Cards dengan border biru */
+.card {
+    border: 1px solid #007bff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+/* Tombol biru (sudah default Bootstrap, tapi pastikan konsisten) */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Body background abu-abu muda untuk kontras */
+body {
+    background-color: #f0f4f8;
+}
